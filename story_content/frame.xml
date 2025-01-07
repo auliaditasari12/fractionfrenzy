@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="FRACTION FRENZY" />
+              <option name="title_text" value="FRACTION FRENZY 2" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -33,7 +33,7 @@
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
-          <option name="time_enabled" value="true">
+          <option name="time_enabled" value="false">
             <options>
               <option name="time_format" value="elapsed" />
             </options>
@@ -58,7 +58,7 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="false" />
+          <option name="volume" value="true" />
           <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
@@ -86,8 +86,8 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00000000001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npnxnanbsnfns00000000101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -109,8 +109,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000001">
-      <control name="volume" enabled="false" />
+    <control_layout name="pxabnsnfns00000000101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -132,8 +132,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00000000001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npxnabnsnfns00000000101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -155,8 +155,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000000001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npnxnanbnsnfns00000000101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -178,8 +178,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000000">
-      <control name="volume" enabled="false" />
+    <control_layout name="pxabnsnfns00000000100">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -203,7 +203,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns00000000001">
+    <colorscheme name="npnxnanbnsnfns00000000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1120,7 +1120,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns00000000001">
+    <string_table name="npnxnanbnsnfns00000000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1288,10 +1288,10 @@
       <links>
         <slidelink slideid="_player.6gyqgvRq1bV" displaytext="Colourful Cartoon Elementary Classroom Rules Educational Presentation (1)" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6gyqgvRq1bV.5v6RWjP7DqS" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6gyqgvRq1bV.5v6RWjP7DqS" displaytext="judul" expand="false" type="slide" />
             <slidelink slideid="_player.6gyqgvRq1bV.6aGFsbGsGJp" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6gyqgvRq1bV.6RG1gpVLpqU" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6gyqgvRq1bV.6MGtbySHumA" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6gyqgvRq1bV.6RG1gpVLpqU" displaytext="petunjuk navigasi" expand="false" type="slide" />
+            <slidelink slideid="_player.6gyqgvRq1bV.6MGtbySHumA" displaytext="menu utama" expand="false" type="slide" />
             <slidelink slideid="_player.6gyqgvRq1bV.5bj2vdTaLhQ" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6gyqgvRq1bV.5Z6fZFYZGuG" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6gyqgvRq1bV.6OMt2oWairo" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1305,7 +1305,7 @@
             <slidelink slideid="_player.6gyqgvRq1bV.5npHFCyqP2K" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6gyqgvRq1bV.5gk1rN8oPOK" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6gyqgvRq1bV.6ibMpZsDuKt" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6gyqgvRq1bV.5r3TLf8AvUV" displaytext="Draw from bank soal pecahan mtk" expand="false" type="slide" />
+            <slidelink slideid="_player.6gyqgvRq1bV.5yUeUS5Dphx" displaytext="Draw from soal latihan 2" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
